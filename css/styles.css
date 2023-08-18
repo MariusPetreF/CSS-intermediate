@@ -1,0 +1,215 @@
+body {
+    /* background-color: gray; */
+    margin: 0%;
+    color: #40514e;
+    /*padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr {
+    /* border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%; */
+    border-top: dotted;
+    border-width: 8px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-color: grey;
+    width: 5%;
+    margin: 100px auto;
+  }
+/*footer{
+  background-color: #2bc4ad; 
+  color: white;
+  text-align: center;
+  padding: 2em;
+}*/
+.middle-container{
+    margin: 100px 0;
+
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.creator{
+    margin-top: 40px;
+    color: #eaf6f6;
+    font-size: 0.75rem;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 2px 2px 4px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.bottomcloud{
+     position: absolute;
+     left: 300px; 
+     bottom: 300px; 
+}
+.topcloud{
+    /* position: absolute; 
+    left: 250px;
+    right: 300px;
+     top: 50px; */
+     position: absolute;
+     right: 300px;
+     top: 15px;
+}
+.pro{
+    text-decoration: underline;
+}
+.after-hello{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    
+}
+p{
+    /* font-size: larger; */
+    font-weight: bold;
+    line-height: 2;
+}
+.profile{
+    margin-top: 20px;
+}
+.profile-picture{
+    width: 20%;
+    height: auto;
+}
+h1{
+    color: #66bfbf;
+    font-size: 5em;
+    /* line-height: 2; */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+.topcontainer{
+    background-color: #E4F9F5;
+    border: 10px;
+    position: relative;
+    padding-top: 100px;
+}
+.footer-link{
+    margin: 2em;
+    color: #11999e;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #eaf6f6;
+    font-size: larger;
+}
+.skill-row {
+    width: 50%; /* Set the width to 50% */
+    /* height: 50%; */
+    display: inline-block; /* Make it inline to align side by side */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    padding: 20px; /* Add some padding for spacing */
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2em; */
+  }
+  
+  .skill-row img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .webdevimg{
+    width: 25%;
+    float: left;
+    margin-right: 2em;
+  }
+  .gadgetsimg{
+    width: 25%;
+    float: right;
+    margin-left: 2em;
+  }
+  /* .webdevtext {
+    clear: left;
+    margin-top: 8em;
+  }
+  .hobby-text{
+    clear: right;
+    margin-top: 10em; 
+  }*/
+  
+
+  
+/* .container { 
+    position: relative;
+    width: 30%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.8;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin-top: 320%;
+   } */
